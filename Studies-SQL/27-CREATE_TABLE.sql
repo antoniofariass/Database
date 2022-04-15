@@ -11,6 +11,7 @@ CREATE TABLE nomeTabela(
 RESTRIÇOES DAS COLUNAS
 
 NOT NULL - Não permite nulos 
+NOT NULL UNIQUE - nao permite nulos nem valores iguais  
 UNIQUE - FORÇA que todos os valores de uma coluna sejam diferentes
 PRIMARY KEY - uma junção de NOT NULL e UNIQUE 
 FOREIGN KEY - identifica unicamente uma linha em outra tabela
